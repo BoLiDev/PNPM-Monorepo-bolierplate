@@ -8,7 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@bo/components": "workspace:^1.0.0"
-  }
+  "dependencies": {}
 }
