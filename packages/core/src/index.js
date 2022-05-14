@@ -1,3 +1,10 @@
-import add from '@bo/components'
+// import {default as Component} from '@bo/components'
+import React from 'react'
+import ReactDom from 'react-dom'
 
-console.log(add(1, 2))
+ReactDom.render(<App />, document.getElementById('root'))
+
+function App() {
+  // return <Component />
+  return <div>App</div>
+}
