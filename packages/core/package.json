@@ -2,13 +2,19 @@
   "name": "@bo/core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node ./dist/main.bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@bo/components": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
