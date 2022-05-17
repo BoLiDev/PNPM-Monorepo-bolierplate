@@ -15,7 +15,7 @@ module.exports = {
       // JavaScript
       {
         test: /\.(js|jsx)$/,
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
         use: ['babel-loader'],
       },
     ],
